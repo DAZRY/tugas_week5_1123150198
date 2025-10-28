@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const myApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: const Text("Contoh Gambar Lokal")),
         body: Center(
           child: Image.asset(
-            'assets/images/kucing.png',// path gambar lokal
+            'assets/images/kucing.png', // path gambar lokal
             width: 200,
             height: 200,
             fit: BoxFit.cover,
-            )
+          ),
         ),
       ),
     );
